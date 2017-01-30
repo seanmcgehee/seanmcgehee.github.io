@@ -1,12 +1,48 @@
-html{
-	/* This image will be displayed fullscreen */
-	background:url('ideas/rKdoIs7.gif') no-repeat center center;
-	min-height:100%;
-	background-size:cover;
+body {
+  background-image: url('ideas/bg1.jpg');
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  background-color: #464646;
+
+  font-family: 'Open Sans', 'Helvetica Neue', Arial, sans-serif;
+  -webkit-tap-highlight-color: #222;
 }
 
-body{
-	/* Workaround for some mobile browsers */
-	min-height:100%;
-	background-color: black;
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'Open Sans', 'Helvetica Neue', Arial, sans-serif
+}
+p, div {
+    font-family: 'Open Sans', 'Helvetica Neue', Arial, sans-serif
+}
+.btn {
+    font-family:'Open Sans', 'Helvetica Neue', Arial, sans-serif
+}
+
+a {
+    transition: all .40s;
+}
+
+.top-nav {
+    float: right;
+    padding: 15px 0 15px 15px;
+}
+
+.top-nav a {
+    text-decoration: none;
+    color: rgba(255, 255, 255, .7);
+    font-weight: 700;
+    font-size: 14px;
+    padding: 10px 10px 10px 10px;
+}
+
+.top-nav a:hover {
+    color: rgba(255, 255, 255, .9)
+}
+
+/* Styling */
+
+.book-art {
+    max-height: 400px;
 }
