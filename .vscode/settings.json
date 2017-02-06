@@ -1,0 +1,12 @@
+// Place your settings in this file to overwrite default and user settings.
+{
+    "emeraldwalk.runonsave": {
+    "commands": [
+        {
+            "match": ".*\\.src\\\\.*\\.html",
+            "isAsync": true,
+            "cmd": "C:\\Users\\Andrew\\Desktop\\mcgehee_1-0\\.src\\.zas\\deploy.bat"
+        }
+    ]
+}
+}

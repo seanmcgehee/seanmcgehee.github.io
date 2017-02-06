@@ -6,7 +6,7 @@
             "type": "chrome",
             "request": "launch",
             "sourceMaps": false,
-            "file": "${workspaceRoot}/index_2.html"
+            "file": "${workspaceRoot}/index.html"
         }
     ]
 }

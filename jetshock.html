@@ -39,55 +39,71 @@
             </div>
         </div>
         
-		<div class="row">
-	<div class="col-xs-12 col-sm-7">
-		<img src="img/shared/logo1.png" class="img-responsive"/>
-		<div class="front-greeting">
-			Hi, I am Sean Robert McGehee.
-		</div>
-		<div class="front-description">
-			I can act, make movies, and write screenplays.
-			There&#39;s other stuff I can do beyond that,
-			like make a mean place of &#34;spicy nachos&#34;,
-			but I thought you would want to know my faves.
-		</div>
-		<div class="visible-xs" style="padding-top: 40px;"></div>
+		<div class="row" style="margin-top: 50px">
+	<div class="col-xs-12 col-sm-5">
+		<img src="img/jetshock/book1.jpg" class="img-responsive book-art center-block"/>
+		<div class="visible-xs" style="margin-bottom: 60px"></div>
 	</div>
-
-	<div class="col-xs-12 col-sm-4 col-sm-offset-1">
-		<img src="img/index/face1.jpg" class="img-responsive"/>
+	<div class="col-xs-12 col-sm-7">
+		<div class="book-text">
+			<span class="big-letters">JetShock;</span> <br/>
+			/dʒet-SHäk/ 
+			<input src="img/jetshock/speaker.png" height="14" type="image" width="14" onclick="document.getElementById(&#39;audio1&#39;).play();"/>
+			<br/>
+			<br/>
+			1. Adjective - To Have a sudden realization of the future.
+			&#34;When Billy graduated college, he didn&#39;t know what to do next! 
+			He was completely JetShocked.&#34;
+			<br/> <br/>
+			2. Noun - A brand of spacecar.
+			&#34;Bob worked for the Futura company, designing JetShocks.&#34;
+			<br/> <br/>
+			<img src="img/jetshock/art1.jpg" class="img-responsive" style="max-height: 180px;"/>
+		</div>
 	</div>
 </div>
 
-<link href="https://fonts.googleapis.com/css?family=PT+Sans+Narrow" rel="stylesheet"/>
+<div class="row">
+	<div class="col-xs-12">
+		<div class="text-center big-letters" style="margin-top: 22px">
+			Coming Soon!
+		</div>
+	</div>
+</div>
 
 <style>
+	body {
+			background-image: url('img/jetshock/bg1.jpg');
+	}
+
 	@font-face {
-		font-family: 'SourceSansBold';
-		src: url('font/SourceSansPro-Bold.ttf.woff')
+		font-family: 'Nougat';
+		src: url('font/Nougat-ExtraBlack.ttf')
 	}
 
-	.front-greeting {
-		font-family: 'SourceSansBold';
-		color: white;
-		font-size: 26px;
-		padding-top: 40px;
+	.big-letters {
+		font-family: 'Nougat';
+		color: #f4efd9;
+		font-size: 48px;
 	}
 
-	.front-description {
-		font-family: 'PT Sans Narrow', sans-serif;
-		color: white;
-		font-size: 22px;
-	} 
+	.book-art {
+		max-height: 500px;
+	}
+
+	.book-text {
+		font-family: 'vcr_osd_mono';
+		color: #f4efd9;
+		font-size: 18px;
+	}
+
+	
 </style>
 
+<audio src="audio/audio1.mp3" id="audio1" autostart="false"></audio>
+
 <script type="text/javascript">
-	// TEMP FIX -> MOVE TO STATIC
-	document.getElementsByClassName("top-logo")[0].style.visibility = 'hidden';
-	//document.getElementsByClassName("top-nav")[0].style.visibility = 'hidden';
 </script>
-
-
 		
     </div>
 

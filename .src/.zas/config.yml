@@ -1,0 +1,10 @@
+mimetypes:
+  text/html: html
+  text/markdown: markdown
+  text/plain: plain
+site:
+  baseurl: https//www.suddenlymcgehee.com
+  language: en
+zas:
+  deploy: ../
+  layout: .zas/layout.html

@@ -19,7 +19,7 @@
         rel='stylesheet' type='text/css'>
 
     <!-- Theme CSS -->
-    <link href="site.min.css" rel="stylesheet">
+    <link href="css/site.min.css" rel="stylesheet">
 
     <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
     <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
@@ -33,24 +33,22 @@
 
     <div class="container">
         <div class="row">
-            <div class="col-xs-12">
+		<div class="col-xs-6">
+                <a href="index.html" class="top-logo">
+					<img src="img/shared/logo1.png" class="img-responsive" />
+                </a>
+            </div>
+            <div class="col-xs-6">
                 <div class="top-nav">
-                    <a href="index.html">HOME</a>
-                    <a href="about.html">ABOUT</a>
+                    <a href="jetshock.html">JETSHOCK</a>
+					<a href="videos.html">VIDEOS</a> 
                     <a href="contact.html">CONTACT</a>
                 </div>
             </div>
         </div>
-        <div class="row">
-            <div class="col-xs-12">
-                <img src="img/about1.jpg" class="img-responsive center-block" style="border: 6px solid #fff" />
-            </div>
-        </div>
-        <div class="row">
-            <div class="col-xs-12 text-center" style="color: white; font-size: 28px; margin-top: 30px">
-                STUNNING
-            </div>
-        </div>
+        
+		{{.Body}}
+		
     </div>
 
 </body>
